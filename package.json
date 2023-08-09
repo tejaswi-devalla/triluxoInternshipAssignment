@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client": "cd Backend && npm run dev",
+    "dev": "concurrently -n 'client,server' -c 'red,green' \"npm start\" \"npm run client\""
   },
   "eslintConfig": {
     "extends": [
