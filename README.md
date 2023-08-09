@@ -1,3 +1,9 @@
+Open a terminal and run: npm start (for frontend)
+
+Open another terminal and run: cd Backend && npm run dev (for database)
+
+You won't be able to fetch the data if you don't run the second terminal commands.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
